@@ -1,0 +1,38 @@
+body { 
+    background: grey;
+    font-family: sans-serif;
+    width: 100%;
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content >* {
+    border-radius: 10px;
+    background-color: white;
+    margin: 30px 100px;
+    padding:10px;
+}
+p{
+    padding-bottom: 20px;
+}
+.button1{
+    background-color: green;  
+}
+.button2{
+    background-color: orange;
+}
+.button3{
+    background-color: purple;
+}
+button{
+    padding:20px;
+    margin-bottom:20px;
+    border-radius: 30px;
+}
+button:hover{
+    cursor: pointer;
+}
+

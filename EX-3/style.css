@@ -1,0 +1,28 @@
+/* TODO */
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding:0;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 100vh; 
+}
+button {
+    border:solid rgb(245, 110, 207) 5px ;
+    background-color: rgb(253, 183, 228);
+    border-radius: 40px;
+    margin: 300px;
+    /*inline-size and block-size properties are very similar to CSS properties width and height, 
+     but the inline-size and block-size properties are dependent on inline and block directions. */
+    block-size: 100px;  
+    inline-size: 300px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    border:solid rgb(152, 19, 110) 5px ;
+    background-color: rgb(210, 117, 177);
+}
